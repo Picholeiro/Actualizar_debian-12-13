@@ -15,6 +15,9 @@ sed -i 's/bookworm/trixie/g' /etc/apt/sources.list
 
 
 sudo apt update
+
 sudo apt upgrade
+
 sudo apt full-upgrade
+
 sudo apt --purge autoremove
